@@ -1,0 +1,50 @@
+.panier {
+    display: flex;
+align-items: center;
+justify-content: center;
+min-height: 105vh;
+padding-left: 150px;
+background-color: #D6BFAE;
+}
+
+
+.panier img {
+width: 50%;
+height: 30%;
+padding: 6px 0;
+border-radius: 10px;
+}
+.panier section {
+    width: 70%;
+    height: 100%;
+    background-color: #fffefe;
+    padding: 10px; 
+    border-radius: 12px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 40%;
+    letter-spacing:1px;
+    font-size:20px;
+}
+th {
+padding: 10px 0;
+font-weight: 400;
+}
+td {
+    border-top: 0.5px solid #999;
+    text-align: center;
+    color: #37a6ff;
+}
+tr {
+border-bottom: 0.5px solid #999;
+}
+.total  {
+    border: 0;
+    float: left;
+    font-weight: 500;
+    color :#37a6ff;
+    padding: 10px;
+}
